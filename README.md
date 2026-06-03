@@ -193,6 +193,30 @@ Create a detailed project task breakdown for a weather analysis application incl
 | Presentation | Create slides and demo | 1 Day |
 
 ---
+# Persona-Based Prompt
+
+## Prompt
+
+```text
+Act as a certified Fitness Coach and create a healthy daily routine for a college student who wants to improve physical fitness and maintain academic productivity.
+```
+
+## AI Output
+
+| Activity               | Recommendation                                                       |
+| ---------------------- | -------------------------------------------------------------------- |
+| Morning Exercise       | 30 minutes of jogging or brisk walking                               |
+| Hydration              | Drink at least 2–3 liters of water daily                             |
+| Diet Plan              | Include fruits, vegetables, and protein-rich foods                   |
+| Study Breaks           | Take a 5-minute stretch break every hour                             |
+| Sleep Schedule         | Maintain 7–8 hours of quality sleep                                  |
+| Stress Management      | Practice meditation or deep breathing exercises for 10 minutes daily |
+| Productivity Tip       | Follow the Pomodoro Technique while studying                         |
+| Evening Activity       | Light walking or stretching before dinner                            |
+| Screen Time Management | Reduce mobile usage before bedtime                                   |
+| Weekly Goal            | Complete at least 150 minutes of physical activity per week          |
+
+
 
 ## Analysis
 
@@ -221,10 +245,41 @@ Create a monthly budget plan for a college student with expenses for food, trave
 | Entertainment | ₹800 |
 | Savings | ₹2000 |
 
-### Recommendations
-- Reduce unnecessary expenses
-- Track daily spending
-- Prioritize savings
+# Persona-Based Prompt
+
+## Prompt
+
+```text
+Act as a professional Financial Advisor with 15 years of experience helping college students manage their finances. Create a monthly budget plan for a college student with expenses for food, travel, books, entertainment, and savings.
+```
+
+## AI Output
+
+### Monthly Budget Plan for a College Student
+
+| Category                | Budget Allocation |
+| ----------------------- | ----------------- |
+| Food                    | ₹3,000            |
+| Travel                  | ₹1,500            |
+| Books & Study Materials | ₹1,000            |
+| Entertainment           | ₹800              |
+| Savings                 | ₹2,000            |
+| Emergency Fund          | ₹700              |
+
+### Financial Advisor Recommendations
+
+| Advice                    | Description                                                                                |
+| ------------------------- | ------------------------------------------------------------------------------------------ |
+| Track Expenses            | Maintain a record of daily spending to monitor expenses effectively.                       |
+| Prioritize Essentials     | Allocate funds to food, travel, and educational needs before discretionary spending.       |
+| Save Consistently         | Set aside a portion of income or allowance every month.                                    |
+| Utilize Student Discounts | Take advantage of discounts available for students on transportation, books, and software. |
+| Build an Emergency Fund   | Keep a reserve for unexpected expenses such as medical needs or academic requirements.     |
+
+### Summary
+
+As a Financial Advisor, I recommend following this budget plan to ensure financial stability while balancing academic and personal needs. Maintaining a disciplined spending pattern and consistent savings habit can help students achieve long-term financial security.
+
 
 ---
 
@@ -260,6 +315,78 @@ Plan a 3-day trip itinerary for Ooty including sightseeing, food recommendations
 - Pine Forest
 - Pykara Lake
 - Return Journey
+
+# Hybrid Prompt
+
+## Prompt
+
+```text
+Act as an experienced Travel Planner and create a budget-friendly 3-day trip itinerary for Ooty. Include major sightseeing attractions, local food recommendations, estimated daily expenses, and travel tips for a college student.
+```
+
+## AI Output
+
+### Day 1 – Explore Ooty Town
+
+| Activity            | Details                                                      |
+| ------------------- | ------------------------------------------------------------ |
+| Morning             | Visit Government Botanical Garden                            |
+| Afternoon           | Enjoy boating at Ooty Lake                                   |
+| Evening             | Explore Commercial Road and local markets                    |
+| Food Recommendation | Try Ooty Varkey, homemade chocolates, and South Indian meals |
+| Estimated Budget    | ₹1,000                                                       |
+
+### Day 2 – Nature and Adventure
+
+| Activity            | Details                                         |
+| ------------------- | ----------------------------------------------- |
+| Morning             | Visit Doddabetta Peak                           |
+| Afternoon           | Tour the Tea Factory and Tea Museum             |
+| Evening             | Visit Rose Garden                               |
+| Food Recommendation | Taste local biryani and traditional Nilgiri tea |
+| Estimated Budget    | ₹1,200                                          |
+
+### Day 3 – Scenic Attractions
+
+| Activity            | Details                            |
+| ------------------- | ---------------------------------- |
+| Morning             | Visit Pine Forest                  |
+| Afternoon           | Explore Pykara Lake and Waterfalls |
+| Evening             | Shopping and return journey        |
+| Food Recommendation | Enjoy authentic Tamil Nadu meals   |
+| Estimated Budget    | ₹800                               |
+
+### Budget-Friendly Travel Suggestions
+
+| Suggestion               | Benefit                       |
+| ------------------------ | ----------------------------- |
+| Use Shared Transport     | Reduces travel expenses       |
+| Book Accommodation Early | Helps secure better discounts |
+| Carry Water Bottles      | Avoids unnecessary spending   |
+| Prefer Local Restaurants | Affordable and authentic food |
+| Travel in Groups         | Share transportation costs    |
+
+### Trip Summary
+
+| Category         | Estimated Cost |
+| ---------------- | -------------- |
+| Accommodation    | ₹2,000         |
+| Food             | ₹1,500         |
+| Local Transport  | ₹1,000         |
+| Sightseeing      | ₹500           |
+| Miscellaneous    | ₹500           |
+| **Total Budget** | **₹5,500**     |
+
+## Why This Is a Hybrid Prompt
+
+This prompt combines multiple prompt engineering techniques:
+
+* **Persona-Based Prompt:** "Act as an experienced Travel Planner"
+* **Instruction-Based Prompt:** Create a 3-day itinerary
+* **Constraint-Based Prompt:** Budget-friendly plan for a college student
+* **Contextual Prompt:** Include sightseeing, food recommendations, expenses, and travel tips
+
+By combining these prompt types, the AI generates a more detailed, personalized, and practical travel plan.
 
 ### Recommendations
 - Use public transport for lower cost
