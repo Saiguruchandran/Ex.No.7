@@ -38,6 +38,10 @@ o Adapt suggestions based on past user preferences and responses.
 
 # Prompt-Based Application Using ChatGPT
 
+<img width="694" height="558" alt="image" src="https://github.com/user-attachments/assets/ebbadc38-26ba-4375-b616-6b52aeb77cd9" />
+
+
+
 # Use Case Scenario
 
 ## Scenario
